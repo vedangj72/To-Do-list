@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.show-inputs {
+    /* display: none; */
+    border: 1px solid;
+    min-height: 250px;
+    width: 700px;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: rgb(133, 130, 130);
+    color: white;
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-left: 15px;
+    width: 70px;
+}
+
+.header {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+
+body {
+    background-color: rgb(51, 50, 50);
+    color: wheat
+}
+
+.display-class {
+    display: none;
+}
+
+.addbutton {
+    background-color: rgb(133, 130, 130);
+    color: white;
+    border-radius: 8px;
+    margin-top: 6px;
+    margin-left: 15px;
+    width: 70px;
+    text-align: center;
+}
+
+.lable-class {
+    display: block;
+    /* margin-bottom: 100px; */
+}
+
+.li-class {
+    padding: 10px;
+}
+
+.input-class {
+    /* display: inline; */
+    margin-left: 10px;
+}
+
+.del-it {
+    position: relative;
+}
